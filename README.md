@@ -13,7 +13,7 @@ Tree Hugger monitors temperature and humidity. Detecting potential wildfire cond
 ESP32 Microcontroller: Used AHT20 + BMP280 sensor modules to measure temperature, and humidity
 Firebase: Database to store the data found from the sensors
 React: To design our site and connect the sensor data to firebase
-Machine Learning: To analyze historical temperate and humidity data - in order to determine low, medium, and high wildfire risk levels.
+Machine Learning (Tensorflow): To analyze historical temperate and humidity data - in order to determine low, medium, high, extreme and alert wildfire risk levels.
 
 ## Challenges we ran into 😬
 
@@ -24,7 +24,7 @@ Machine Learning: To analyze historical temperate and humidity data - in order t
 
 
 **Technical Challenges**
-1. Training the AI Model: Teaching the AI model to understand temperature and humidity data and use that information to assess the risk levels for wildfires in the area. This involves developing algorithms that can accurately classify the risk as low, medium, or high based on the input data, contributing to the safety and preparedness of the community.
+1. Training the AI Model: Teaching the AI model to understand temperature and humidity data and use that information to assess the risk levels for wildfires in the area. This involves developing a simple neutal network algorithm that can accurately classify the risk as low, medium, high, extreme or alert based on the input data, contributing to the safety and preparedness of the community.
 
 2. Setting Up Firebase: Ensuring that Firebase functions properly for our project.
 
@@ -52,6 +52,6 @@ Addressing challenges as they arose sharpened our ability to think on our feet a
 
 **Fire Safety Measures:** Implement mechanisms for TreeHugger to detach from trees during wildfire situations, ensuring its own safety.
 
-**Ground Mobility:** Equip TreeHugger with the ability to move on the ground, reaching safe areas or potential docking stations autonomously.
+**Ground Mobility:** Equip TreeHugger with the ability to move on the ground, reaching safe areas or potential docking stations autonomously in addition to collecting soil data. 
 
 **Animal Deterrence:** Integrate features to emit noise in high-risk situations, deterring nearby wildlife and protecting them from potential dangers.
