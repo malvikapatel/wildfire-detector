@@ -17,7 +17,7 @@ function FetchArduino() {
         setHumidity(humidity);
         setLocationId(locationId + 1);
       });
-  });
+  }, []);
 
   return (
     <WriteFirebase
