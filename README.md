@@ -38,7 +38,7 @@ Another noteworthy accomplishment is our expedition into robotics. None of us ha
 
 Furthermore, it's been a source of great satisfaction to work on a project with a noble cause – to support the well-being of Canadian forests and wildlife.
 
-## What we learned🧐
+## What we learned 🧐
 
 We discovered that setting clear objectives and enhancing our communication is crucial for aligning our team. Experimenting with microcontrollers and data flow proved to be an effective method for mastering the intricacies of connecting the microcontroller to the server and other components of the system. Additionally, collaborating with a group of unfamiliar faces turned out to be a successful experience; it allowed us to leverage each other's strengths.
 
