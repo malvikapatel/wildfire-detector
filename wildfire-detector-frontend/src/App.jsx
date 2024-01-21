@@ -10,7 +10,6 @@ function App() {
   return (
     <div name="App">
       <Home />
-      <Model />
     </div>
   );
 }
