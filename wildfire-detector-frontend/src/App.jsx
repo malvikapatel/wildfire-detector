@@ -4,11 +4,13 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 
 import Home from "./Home";
+import Model from "./Model";
 
 function App() {
   return (
     <div name="App">
       <Home />
+      <Model />
     </div>
   );
 }

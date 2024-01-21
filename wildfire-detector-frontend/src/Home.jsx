@@ -8,7 +8,9 @@ function Home() {
         <div className="flex flex-col w-full h-full text-center items-center justify-center">
           <p className="flex md:text-9xl font-bold text-green-300 items-center justify-center font-outline-2 md:font-outline-2">
             Tree Huggers
-            <img src={logo} width={1 / 2} />
+          </p>
+          <p className="flex md:text-xl font-bold text-white items-center justify-center py-20">
+            Click here to start
           </p>
         </div>
       </div>
